@@ -186,3 +186,17 @@ ul {
 .cta-para {
   font-size: 18px;
 }
+
+/* Footer */
+.footer {
+  background-color: #1f2937;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 18px;
+  color: #f9faf8;
+}
