@@ -120,19 +120,20 @@ ul {
 }
 
 .section-info {
-  margin-bottom: 250px;
+  margin-bottom: 150px;
 }
 
 /* Quote Section */
 .section-quote {
   background-color: #e5e7eb;
   padding: 0 350px;
+  margin-bottom: 150px;
 }
 
 .quote {
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 150px;
 }
 
 .quote-text {
@@ -146,4 +147,42 @@ ul {
   font-weight: bold;
   font-size: 24px;
   align-self: flex-end;
+}
+
+/* Call to action section */
+.section-cta {
+  background-color: #3882f6;
+  margin: 0 350px;
+  border-radius: 8px;
+  padding: 75px 150px;
+  margin-bottom: 100px;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.cta-text {
+  color: #f9faf8;
+}
+
+.cta-button {
+  padding: 12px 24px;
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #3882f6;
+  border: #f9faf8 2px solid;
+  border-radius: 8px;
+}
+
+.cta-header {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cta-para {
+  font-size: 18px;
 }
