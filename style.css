@@ -82,3 +82,39 @@ ul {
   height: 200px;
   background-color: #8f8f8f;
 }
+
+/* Section Info */
+.info-header {
+  height: 100px;
+  padding: 50px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.info-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-card-img {
+  width: 200px;
+  height: 200px;
+  border: #3882f6 3px solid;
+  margin-bottom: 16px;
+}
+
+.info-card-text {
+  text-align: center;
+  width: 200px;
+}
