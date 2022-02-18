@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+/* Navigation */
+nav {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 10px 350px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.header-links {
+  display: flex;
+  gap: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 50px 350px;
+}
+
+.hero-text,
+.hero-img {
+  flex: 1 1 0;
+}
+
+.hero-text-main {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: extra-bold;
+  margin-bottom: 16px;
+}
+
+.hero-text-secondary {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.sign-up-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+.sign-up-button:hover {
+  cursor: pointer;
+}
+
+.hero-img {
+  width: 400px;
+  height: 200px;
+  background-color: #8f8f8f;
+}
